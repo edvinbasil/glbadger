@@ -1,0 +1,26 @@
+
+body {
+  font-family: 'Share Tech Mono'
+}
+h1 {
+  background-color: aqua
+}
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.button-outline{
+  border-color: aqua
+}
+.custom{
+ box-shadow: .2em .2em 0 #222;
+ border: solid 2px #222;
+ padding: 0 10px 0 10px;
+ color: #222;
+ cursor: pointer;
+}
+.custom:hover{
+  box-shadow: none;
+}
